@@ -134,8 +134,7 @@ pause
 
 ## 🙋 Author
 
-**Mohit**
-Simple Tkinter-based photo viewer project.
+**Mohit Gunani**
 
 ---
 
