@@ -1,0 +1,7 @@
+method 1 :
+cd C:\Users\MOHIT\OneDrive\Desktop\gallery
+venv\Scripts\activate
+python photoapplication.py
+
+method 2 :
+click bat file 
