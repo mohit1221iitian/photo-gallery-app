@@ -19,12 +19,12 @@ root.configure(background='light blue')
 text_label=Label(root,text='IMAGE VIEWER',fg='black',bg='light blue')
 text_label.configure(font=('algerian',40))
 text_label.pack(pady=(10,10))
-root.iconbitmap('C:\\Users\\MOHIT\\OneDrive\\Desktop')
+root.iconbitmap('icon address')
 
-files=os.listdir('D:\\pics\\b for ball\\NANU')
+files=os.listdir('images folder address')
 img_array=[]
 for file in files:
-	img=Image.open(os.path.join('D:\\pics\\b for ball\\NANU',file))
+	img=Image.open(os.path.join('images folder address',file))
 	resized_img=img.resize((400,450))
 	img_array.append(ImageTk.PhotoImage(resized_img))
 
